@@ -1,12 +1,17 @@
 # sokoban_generator
 
+## Summary
+This generates a variant of sokoban where the goal is to reach a flag by pushing blocks into holes.
+
 Try some examples:
 https://www.puzzlescript.net/play.html?p=525f2c01dcf9a448a0f007cbffbcd47f
 
+The generator uses a [Simulated Annealing](https://en.wikipedia.org/wiki/Simulated_annealing) algorithm to produce levels.
 
+## How to use
 Run with `python sokoban_generator.py`
 
-It will eventually start outputting some levels, preceded by two numbers in parentheses. First is the number of steps in the solution, and second is the number of iterations the solver took to solve it.
+It will eventually start outputting some levels, preceded by two numbers in parentheses. First is the number of steps in the solution, and second is the number of iterations the solver took to solve it. During a single run, each puzzle will be "better" than the last (longer solution length, or more solver iterations).
 
 Example output:
 ```
@@ -38,7 +43,7 @@ Ox.x..
 To try playing a level, go to the PuzzleScript editor at https://www.puzzlescript.net/editor.html, paste the PuzzleScript template below, and put your level under the `LEVELS` section at the bottom.
 
 
-PuzzleScript template
+## PuzzleScript template
 ```
 title Algorithm-Generated Sokoban Levels
 
