@@ -64,7 +64,7 @@ class Pos:
 
 
 PLAYER_START = Pos(0, 0)
-GOAL_POS = Pos(5, 5)
+GOAL_POS = Pos(SIZE - 1, SIZE - 1)
 
 
 def copy_level(level):
