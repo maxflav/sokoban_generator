@@ -1,7 +1,7 @@
 # sokoban_generator
 
 ## Summary
-This generates a variant of sokoban where the goal is to reach a flag by pushing blocks into holes.
+This generates puzzles for a variant of sokoban where the goal is to reach a flag by pushing blocks into holes.
 
 Try some examples:
 https://www.puzzlescript.net/play.html?p=525f2c01dcf9a448a0f007cbffbcd47f
